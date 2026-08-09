@@ -96,6 +96,55 @@ let eligibleAges = ages.filter((ag)=> {
 console.log(ages);
 console.log(eligibleAges);
 
+//objects
+
+let student={
+    name:"Ali" ,
+    courses:["Maths" , "English" , "urdu"],
+    age:20,
+    isGraducated:true,
+    carInfo: {
+        nam: "honda",
+    }
+}
+console.log(student);
+console.log(student.name);
+student.name = "Rukhsana";
+student.institute = "Saylani";
+console.log(student.courses);
+console.log(student.carInfo.name);
+
+//make an object of car
+
+let car = {
+      name: "benz",
+      type: "mercedes",
+      price: 5000,
+}
+console.log(car);
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
